@@ -9,5 +9,11 @@
  */
 
 {
+    "uikit/atoms/icon": {
+        "scope": "nftstack.nftstack-uikit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "experience/uikit/atoms/icon"
+    },
     "$schema-version": "14.9.0"
 }

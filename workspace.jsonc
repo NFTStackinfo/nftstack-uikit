@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "bitorg.experience"
+    "defaultScope": "nftstack.nftstack-uikit"
   },
   /**
    * main configuration for component dependency resolution.
@@ -47,6 +47,7 @@
         "eslint-plugin-jsx-a11y": "6.4.1",
         "eslint-plugin-mdx": "1.15.0",
         "eslint-plugin-react": "7.25.1",
+        "icomoon-react": "3.0.0",
         "styled-components": "5.3.5"
       },
       "peerDependencies": {
