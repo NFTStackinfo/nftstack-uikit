@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "my-org.my-scope"
+    "defaultScope": "bitorg.experience"
   },
   /**
    * main configuration for component dependency resolution.
@@ -39,26 +39,18 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@teambit/base-react.theme.theme-provider": "1.95.3",
-        "@teambit/base-react.themes.theme-switcher": "1.0.2",
-        "@teambit/base-ui.text.heading": "1.0.4",
-        "@teambit/community.envs.community-react": "1.95.12",
-        "@teambit/design.envs.react": "1.0.14",
-        "@teambit/design.theme.icons-font": "1.0.8",
-        "@teambit/design.themes.color-schema": "0.0.3",
-        "@teambit/design.ui.buttons.button": "1.95.14",
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@typescript-eslint/eslint-plugin": "4.29.3",
-        "classnames": "2.3.1",
         "eslint-import-resolver-node": "0.3.6",
         "eslint-plugin-import": "2.22.1",
         "eslint-plugin-jest": "24.4.0",
         "eslint-plugin-jsx-a11y": "6.4.1",
         "eslint-plugin-mdx": "1.15.0",
-        "eslint-plugin-react": "7.25.1"
+        "eslint-plugin-react": "7.25.1",
+        "styled-components": "5.3.5"
       },
       "peerDependencies": {
-        "@testing-library/react": "^12.1.5",
+        "@testing-library/react": "12.0.0",
         "react": "17.0.2",
         "react-dom": "17.0.2"
       }
