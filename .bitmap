@@ -11,7 +11,7 @@
 {
     "uikit/atoms/icon": {
         "scope": "nftstack.nftstack-uikit",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "experience/uikit/atoms/icon"
     },
